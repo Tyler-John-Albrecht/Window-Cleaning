@@ -314,7 +314,7 @@
         .hero-bg {
             position: absolute;
             inset: 0;
-            background-image: url('./clearview_hero_bg_jpg.jpg');
+            background-image: url('./clearview_hero_bg.jpg.jpg');
             background-size: cover;
             background-position: center 20%;
             will-change: transform;
@@ -1581,7 +1581,7 @@
                 <article class="service-card" role="listitem" aria-labelledby="svc-title-1">
                     <div class="service-card__img-wrap">
                         <img
-                            src="./clearview_feature_precision_jpg.jpg"
+                            src="./clearview_feature_precision.jpg.jpg"
                             alt="A ClearView professional in a navy uniform expertly squeegeeing a large multi-pane stone home window at golden hour, with a bucket of supplies at her feet"
                             loading="lazy"
                             width="600"
@@ -1606,7 +1606,7 @@
                 <article class="service-card" role="listitem" aria-labelledby="svc-title-2">
                     <div class="service-card__img-wrap">
                         <img
-                            src="./clearview_feature_detail_jpg.jpg"
+                            src="./clearview_feature_detail.jpg.jpg"
                             alt="A close-up of a gloved hand buffing a water-stained window pane with a microfiber cloth, revealing a pristine clear view of a lush green lawn and trees beyond"
                             loading="lazy"
                             width="600"
@@ -1631,7 +1631,7 @@
                 <article class="service-card" role="listitem" aria-labelledby="svc-title-3">
                     <div class="service-card__img-wrap">
                         <img
-                            src="./clearview_feature_pole_jpg.jpg"
+                            src="./clearview_feature_pole.jpg.jpg"
                             alt="A ClearView technician in navy uniform using an extended waterfed pole system to clean upper-story windows of a large modern stone and wood home with a pool visible at sunset"
                             loading="lazy"
                             width="600"
@@ -2066,9 +2066,9 @@
                         Premium window cleaning for discerning homeowners. Because the view matters just as much as the home itself.
                     </p>
                     <div class="footer-contact">
-                        <a href="mailto:hello@clearviewresidential.com" aria-label="Email hello@clearviewresidential.com">
+                        <a href="/cdn-cgi/l/email-protection#137b767f7f7c53707f767261657a76646176607a77767d677a727f3d707c7e" aria-label="Email hello@clearviewresidential.com">
                             <span class="footer-contact__icon" aria-hidden="true">✉</span>
-                            hello@clearviewresidential.com
+                            <span class="__cf_email__" data-cfemail="f29a979e9e9db2919e979380849b97858097819b96979c869b939edc919d9f">[email&#160;protected]</span>
                         </a>
                         <a href="tel:+15550001234" aria-label="Call (555) 000-1234">
                             <span class="footer-contact__icon" aria-hidden="true">☎</span>
@@ -2152,7 +2152,7 @@
     <!-- ===========================================================
          JAVASCRIPT  —  ES6+, commented throughout
          =========================================================== -->
-    <script>
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
     /**
      * ClearView Residential — Main JS
      * Initialised after DOMContentLoaded to ensure all elements exist.
@@ -2431,16 +2431,4 @@
 
         setTimeout(() => {
             success.style.display = 'block';
-            btn.textContent       = 'Subscribed ✦';
-            e.target.reset();
-
-            if (typeof gsap !== 'undefined') {
-                gsap.from(success, { opacity: 0, y: 8, duration: 0.4, ease: 'power2.out' });
-            }
-        }, 1000);
-    }
-
-    </script>
-
-</body>
-</html>
+            btn.textContent
